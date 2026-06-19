@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <!-- Background -->
+  <rect width="192" height="192" rx="40" fill="#0d1f2d"/>
+  <!-- Outer ring -->
+  <circle cx="96" cy="96" r="82" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="96" cy="96" r="70" fill="none" stroke="#c9a84c" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Eight-pointed geometric star (Islamic pattern) -->
+  <g transform="translate(96,96)">
+    <polygon points="0,-52 10,-20 42,-30 20,-8 42,20 10,10 0,52 -10,10 -42,20 -20,-8 -42,-30 -10,-20"
+             fill="#c9a84c" opacity="0.15"/>
+    <!-- Inner star -->
+    <polygon points="0,-32 6,-12 26,-18 12,-5 26,12 6,6 0,32 -6,6 -26,12 -12,-5 -26,-18 -6,-12"
+             fill="#c9a84c" opacity="0.35"/>
+  </g>
+
+  <!-- Central crescent -->
+  <g transform="translate(96,86)">
+    <circle cx="0" cy="0" r="24" fill="#c9a84c" opacity="0.9"/>
+    <circle cx="10" cy="-6" r="20" fill="#0d1f2d"/>
+  </g>
+
+  <!-- Star near crescent -->
+  <g transform="translate(118,70)">
+    <polygon points="0,-7 2,-2 7,-2 3,1 5,7 0,3 -5,7 -3,1 -7,-2 -2,-2"
+             fill="#c9a84c"/>
+  </g>
+
+  <!-- Bottom Arabic calligraphy approximation (ح for Hussain, ع for Abbas) -->
+  <text x="96" y="152" text-anchor="middle" font-family="serif" font-size="22" fill="#c9a84c" opacity="0.8">ح · ع</text>
+
+  <!-- Decorative dots at cardinal points -->
+  <circle cx="96" cy="18" r="3" fill="#c9a84c" opacity="0.6"/>
+  <circle cx="96" cy="174" r="3" fill="#c9a84c" opacity="0.6"/>
+  <circle cx="18" cy="96" r="3" fill="#c9a84c" opacity="0.6"/>
+  <circle cx="174" cy="96" r="3" fill="#c9a84c" opacity="0.6"/>
+</svg>

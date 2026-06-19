@@ -1,0 +1,42 @@
+{
+  "name": "نور الشهادة — Noor al-Shahadah",
+  "short_name": "نور الشهادة",
+  "description": "Ahadith in Shaan of Mola Hussain & Mola Abbas Alamdar from Bihar al-Anwar, Al-Kafi, Man La Yahduruhu al-Faqih, Mizan al-Hikmah",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080f18",
+  "theme_color": "#0d1f2d",
+  "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["education", "books", "religion"],
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "الإمام الحسين ع",
+      "short_name": "Hussain",
+      "description": "Ahadith about Imam Hussain",
+      "url": "./index.html#hussain"
+    },
+    {
+      "name": "العباس ع — Alamdar",
+      "short_name": "Abbas",
+      "description": "Ahadith about Abbas Alamdar",
+      "url": "./index.html#abbas"
+    }
+  ]
+}
