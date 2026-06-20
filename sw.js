@@ -115,3 +115,13 @@ self.addEventListener('notificationclick', event => {
 });
 
 console.log('[SW] Noor al-Shahadah Service Worker loaded ✓');
+});
+
+self.addEventListener('notificationclick', event => {
+  event.notification.close();
+  event.waitUntil(
+    clients.openWindow(event.notification.data.url || './')
+  );
+});
+
+console.log('[SW] Noor al-Shahadah Service Worker loaded ✓');
