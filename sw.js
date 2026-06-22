@@ -3,7 +3,7 @@
 //  Full offline caching for Muharram & Arbaeen use
 // ═══════════════════════════════════════════════════════
 
-const CACHE_NAME = 'noor-al-shahadah-v1';
+const CACHE_NAME = 'noor-al-shahadah-v2';
 const OFFLINE_URL = './index.html';
 
 const PRECACHE_ASSETS = [
